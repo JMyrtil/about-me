@@ -1,3 +1,5 @@
+'use strict'
+
 console.log('hi')
 
 let whou = prompt("What's you're name")
