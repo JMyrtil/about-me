@@ -40,18 +40,20 @@ function q2(){
 
 
 //QUESTION 3
-let muzik = prompt("Do I Like EDM?").toLowerCase()
-    ;
+function q3(){
+    let muzik = prompt("Do I Like EDM?").toLowerCase()
+        ;
 
-if (muzik === 'yes' || muzik === 'y') {
-    alert("You're headbaning right!!")
-    //console.log("You're headbaning right!!")
-} else if (muzik === 'no' || muzik === 'n') {
-    alert('You are WRONG!!')
-    //console.log('You are WONRG!!')
-} else
-    alert('Yes or No kindly')
-//console.log('Yes or No kindly')
+    if (muzik === 'yes' || muzik === 'y') {
+        alert("You're headbaning right!!")
+        //console.log("You're headbaning right!!")
+    } else if (muzik === 'no' || muzik === 'n') {
+        alert('You are WRONG!!')
+        //console.log('You are WONRG!!')
+    } else
+        alert('Yes or No kindly')
+    //console.log('Yes or No kindly')
+}    
 
 
 //QUESTION 4
@@ -155,3 +157,4 @@ alert('Was nice talking to you ${whou} please do enjoy more information about my
 
 q1();
 q2();
+q3();
