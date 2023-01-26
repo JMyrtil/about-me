@@ -23,18 +23,20 @@ function q1() {
 }
 
 //QUESTION 2
-let car = prompt("Do I Like Cars?").toLowerCase()
-    ;
+function q2(){
+    let car = prompt("Do I Like Cars?").toLowerCase()
+        ;
 
-if (car === 'yes' || car === 'y') {
-    alert('You are correct!!')
-    //console.log('You are correct!!')
-} else if (car === 'no' || car === 'n') {
-    alert('You are WRONG!!')
-    //console.log('You are WONRG!!')
-} else
-    alert('Yes or No kindly')
-//console.log('Yes or No kindly')
+    if (car === 'yes' || car === 'y') {
+        alert('You are correct!!')
+        //console.log('You are correct!!')
+    } else if (car === 'no' || car === 'n') {
+        alert('You are WRONG!!')
+        //console.log('You are WONRG!!')
+    } else
+        alert('Yes or No kindly')
+    //console.log('Yes or No kindly')
+}    
 
 
 //QUESTION 3
@@ -152,3 +154,4 @@ while (tries) {
 alert('Was nice talking to you ${whou} please do enjoy more information about myself.')
 
 q1();
+q2();
