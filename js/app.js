@@ -132,29 +132,31 @@ function q6(){
 }
 
 //QUESTION 7
-let mods = ['turbo', 'exhaust', 'intake'];
-let usercorrect = false;
-let tries = 6;
-let score = 0;
-let useranswer;
+function q7(){
+    let mods = ['turbo', 'exhaust', 'intake'];
+    let usercorrect = false;
+    let tries = 6;
+    let score = 0;
+    let useranswer;
 
-while (tries) {
-    useranswer = prompt(`What mods do I have on my car?`);
+    while (tries) {
+        useranswer = prompt(`What mods do I have on my car?`);
 
-    for (let i = 0; i < mods.length; i++) {
-        if (useranswer === mods[i]) {
-            console.log(`Correct`)
-            usercorrect = true
+        for (let i = 0; i < mods.length; i++) {
+            if (useranswer === mods[i]) {
+                console.log(`Correct`)
+                usercorrect = true
+            }
         }
-    }
-    if (usercorrect === true) {
-        alert(`Right`);
-        score++;
-        alert(score)
-        break;
-    } else {
-        tries--
-        alert(`Incorrect ${tries} left`)
+        if (usercorrect === true) {
+            alert(`Right`);
+            score++;
+            alert(score)
+            break;
+        } else {
+            tries--
+            alert(`Incorrect ${tries} left`)
+        }
     }
 }
 
@@ -166,3 +168,4 @@ q3();
 q4();
 q5();
 q6();
+q7();
