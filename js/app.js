@@ -74,19 +74,20 @@ function q4(){
 
 
 //QUESTION 5
-let weether = prompt("Do I Like the cold?").toLowerCase()
-    ;
+function q5(){
+    let weether = prompt("Do I Like the cold?").toLowerCase()
+        ;
 
-if (weether === 'no' || weether === 'n') {
-    alert("Ahhh, ahah that's hot!!")
-    //console.log("Ahhh, ahah that's hot!!")
-} else if (weether === 'yes' || weether === 'y') {
-    alert('You are WRONG!!')
-    //console.log('You are WONRG!!')
-} else
-    alert('Yes or No kindly')
-//console.log('Yes or No kindly')
-
+    if (weether === 'no' || weether === 'n') {
+        alert("Ahhh, ahah that's hot!!")
+        //console.log("Ahhh, ahah that's hot!!")
+    } else if (weether === 'yes' || weether === 'y') {
+        alert('You are WRONG!!')
+        //console.log('You are WONRG!!')
+    } else
+        alert('Yes or No kindly')
+    //console.log('Yes or No kindly')
+}
 
 //QUESTION 6
 let whp;
@@ -161,3 +162,4 @@ q1();
 q2();
 q3();
 q4();
+q5();
