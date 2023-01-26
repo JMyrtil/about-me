@@ -80,20 +80,24 @@ while (attemptsleft) {
     whp = prompt(`How much whp does my car make?`);
 
     if (whp > fast) {
-        attemptsleft --
-            alert(`Lower you have ${attemptsleft} tries left.`)
+        attemptsleft--
+        alert(`Lower you have ${attemptsleft} tries left.`)
         rite = true
 
         if (rite = true) {
             console.log(`incorrect`)
         }
     }
-
-    if (whp < fast) {
-        console.log(`incorrect`)
+    else if (whp < fast) {
         attemptsleft--
         alert(`Higher you have ${attemptsleft} tries left.`)
+        rite = true
+
+        if (rite = true) {
+            console.log(`incorrect`)
+        }
     } else {
+        whp = fast
         console.log(`Correct`)
         alert(`Fast Guy Huh!`)
         break;
