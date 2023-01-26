@@ -4,6 +4,7 @@ console.log('hi');
 
 let whou = prompt('What\'s you\'re name');
 console.log('Hello ' + whou);
+alert('Hello ' + whou);
 let score = 0;
 
 
@@ -163,9 +164,6 @@ function q7() {
   }
 }
 
-alert(`Gratz you score a ${score} out of 7`);
-alert(`Was nice talking to you ${whou} please do enjoy more information about myself.`);
-
 q1();
 q2();
 q3();
@@ -173,3 +171,6 @@ q4();
 q5();
 q6();
 q7();
+
+alert(`Gratz you score a ${score} out of 7`);
+alert(`Was nice talking to you ${whou} please do enjoy more information about myself.`);
