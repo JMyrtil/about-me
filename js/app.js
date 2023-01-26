@@ -97,7 +97,7 @@ function q5() {
 //QUESTION 6
 function q6() {
   let whp;
-  let fast = 320;
+  let fast = '320';
   let attemptsleft = 4;
   let rite = false;
 
