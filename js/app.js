@@ -5,19 +5,24 @@ console.log('hi')
 let whou = prompt("What's you're name")
 console.log('Hello ' + whou)
 
-let myname = prompt("Is my name Joel?").toLowerCase()
-    ;
 
-if (myname === 'yes' || myname === 'y') {
-    alert('You are correct!!')
-    //console.log('You are correct!!')
-} else if (myname === 'no' || myname === 'n') {
-    alert('You are WRONG!!')
-    //console.log('You are WONRG!!')
-} else
-    alert('Yes or No kindly')
-//console.log('Yes or No kindly')
+//FIRST QUESTION
+function q1() {
+    let myname = prompt("Is my name Joel?").toLowerCase()
+        ;
 
+    if (myname === 'yes' || myname === 'y') {
+        alert('You are correct!!')
+        //console.log('You are correct!!')
+    } else if (myname === 'no' || myname === 'n') {
+        alert('You are WRONG!!')
+        //console.log('You are WONRG!!')
+    } else
+        alert('Yes or No kindly')
+    //console.log('Yes or No kindly')
+}
+
+//QUESTION 2
 let car = prompt("Do I Like Cars?").toLowerCase()
     ;
 
@@ -31,6 +36,8 @@ if (car === 'yes' || car === 'y') {
     alert('Yes or No kindly')
 //console.log('Yes or No kindly')
 
+
+//QUESTION 3
 let muzik = prompt("Do I Like EDM?").toLowerCase()
     ;
 
@@ -44,6 +51,8 @@ if (muzik === 'yes' || muzik === 'y') {
     alert('Yes or No kindly')
 //console.log('Yes or No kindly')
 
+
+//QUESTION 4
 let locate = prompt('Am I from Seattle?').toLowerCase()
     ;
 
@@ -57,6 +66,8 @@ if (locate === 'no' || locate === 'n') {
     alert('Yes or No kindly')
 //console.log('Yes or No kindly')
 
+
+//QUESTION 5
 let weether = prompt("Do I Like the cold?").toLowerCase()
     ;
 
@@ -70,6 +81,8 @@ if (weether === 'no' || weether === 'n') {
     alert('Yes or No kindly')
 //console.log('Yes or No kindly')
 
+
+//QUESTION 6
 let whp;
 let fast = 320;
 let slow = 319;
@@ -109,7 +122,7 @@ while (attemptsleft) {
     }
 }
 
-
+//QUESTION 7
 let mods = ['turbo', 'exhaust', 'intake'];
 let usercorrect = false;
 let tries = 6;
@@ -137,3 +150,5 @@ while (tries) {
 }
 
 alert('Was nice talking to you ${whou} please do enjoy more information about myself.')
+
+q1();
