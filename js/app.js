@@ -90,42 +90,44 @@ function q5(){
 }
 
 //QUESTION 6
-let whp;
-let fast = 320;
-let slow = 319;
-let attemptsleft = 4;
-let rite = false;
+function q6(){
+    let whp;
+    let fast = 320;
+    let slow = 319;
+    let attemptsleft = 4;
+    let rite = false;
 
-while (attemptsleft) {
-    whp = prompt(`How much whp does my car make?`);
+    while (attemptsleft) {
+        whp = prompt(`How much whp does my car make?`);
 
-    if (whp > fast) {
-        attemptsleft--
-        alert(`Lower you have ${attemptsleft} tries left.`)
-        rite = true
+        if (whp > fast) {
+            attemptsleft--
+            alert(`Lower you have ${attemptsleft} tries left.`)
+            rite = true
 
-        if (rite = true) {
-            console.log(`incorrect`)
+            if (rite = true) {
+                console.log(`incorrect`)
+            }
         }
-    }
 
-    else if (whp < fast) {
-        attemptsleft--
-        alert(`Higher you have ${attemptsleft} tries left.`)
-        rite = true
+        else if (whp < fast) {
+            attemptsleft--
+            alert(`Higher you have ${attemptsleft} tries left.`)
+            rite = true
 
-        if (rite = true) {
-            console.log(`incorrect`)
+            if (rite = true) {
+                console.log(`incorrect`)
+            }
+        } else if (whp == fast) {
+            alert(`Fast Guy Huh!`)
+            rite = true
+
+            if (rite = true) {
+                console.log(`correct`)
+            } break;
+        } else {
+            alert(`Type an answer please.`)
         }
-    } else if (whp == fast) {
-        alert(`Fast Guy Huh!`)
-        rite = true
-
-        if (rite = true) {
-            console.log(`correct`)
-        } break;
-    } else {
-        alert(`Type an answer please.`)
     }
 }
 
@@ -163,3 +165,4 @@ q2();
 q3();
 q4();
 q5();
+q6();
