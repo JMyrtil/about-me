@@ -88,6 +88,7 @@ while (attemptsleft) {
             console.log(`incorrect`)
         }
     }
+
     else if (whp < fast) {
         attemptsleft--
         alert(`Higher you have ${attemptsleft} tries left.`)
@@ -96,11 +97,15 @@ while (attemptsleft) {
         if (rite = true) {
             console.log(`incorrect`)
         }
-    } else {
-        whp = fast
-        console.log(`Correct`)
+    } else if (whp == fast) {
         alert(`Fast Guy Huh!`)
-        break;
+        rite = true
+
+        if (rite = true) {
+            console.log(`correct`)
+        } break;
+    } else {
+        alert(`Type an answer please.`)
     }
 }
 
