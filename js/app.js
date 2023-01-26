@@ -57,18 +57,20 @@ function q3(){
 
 
 //QUESTION 4
-let locate = prompt('Am I from Seattle?').toLowerCase()
-    ;
+function q4(){
+    let locate = prompt('Am I from Seattle?').toLowerCase()
+        ;
 
-if (locate === 'no' || locate === 'n') {
-    alert('You are correct!!')
-    //console.log('You are correct!!')
-} else if (locate === 'yes' || locate === 'y') {
-    alert('You are WONRG!!')
-    //console.log('You are WONRG!!')
-} else
-    alert('Yes or No kindly')
-//console.log('Yes or No kindly')
+    if (locate === 'no' || locate === 'n') {
+        alert('You are correct!!')
+        //console.log('You are correct!!')
+    } else if (locate === 'yes' || locate === 'y') {
+        alert('You are WONRG!!')
+        //console.log('You are WONRG!!')
+    } else
+        alert('Yes or No kindly')
+    //console.log('Yes or No kindly')
+}
 
 
 //QUESTION 5
@@ -158,3 +160,4 @@ alert('Was nice talking to you ${whou} please do enjoy more information about my
 q1();
 q2();
 q3();
+q4();
